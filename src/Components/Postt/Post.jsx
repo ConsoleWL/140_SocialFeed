@@ -1,5 +1,5 @@
 // Getting an object and passong into prop then displaying it in divs with dot notation
-const Post = ({}) => {
+const Post = ({ postObj }) => {
   return (
     <div>
       <div></div> {/*here should be Author's Name */}
